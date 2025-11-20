@@ -65,6 +65,11 @@ $result = mysqli_query($conn, $query);
       color: #0d6efd !important;
     }
 
+    .nav-link {
+      font-weight: 500;
+      color: #555 !important;
+    }
+
     /* Page Header */
     .page-header {
       background: linear-gradient(135deg, #0d6efd 0%, #0dcaf0 100%);
@@ -159,7 +164,7 @@ $result = mysqli_query($conn, $query);
 
           <?php if ($level == 'admin'): ?>
             <li class="nav-item"><a class="nav-link" href="admin_dashboard.php">Dashboard Admin</a></li>
-            <li class="nav-item"><a class="nav-link btn btn-primary text-white px-3 ms-2 rounded-pill" href="wisata_add.php"><i class="fas fa-plus me-1"></i> Tambah Wisata</a></li>
+            <li class="nav-item"><a class="nav-link-2 btn btn-primary text-white px-3 ms-2 rounded-pill" href="wisata_add.php"><i class="fas fa-plus me-1"></i> Tambah Wisata</a></li>
           <?php else: ?>
             <li class="nav-item"><a class="nav-link active text-primary" href="wisata_list.php">Destinasi</a></li>
             <!-- <li class="nav-item"><a class="nav-link" href="user_dashboard.php">Dashboard User</a></li> -->
