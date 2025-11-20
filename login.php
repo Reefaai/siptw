@@ -20,7 +20,7 @@ if (isset($_POST['login'])) {
     if ($user['level'] == 'admin') {
       header("Location: admin_dashboard.php");
     } else {
-      header("Location: user_dashboard.php");
+      header("Location: index.php");
     }
     exit;
   } else {
