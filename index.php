@@ -195,10 +195,10 @@ $query_terbaru = mysqli_query($conn, "SELECT * FROM wisata ORDER BY id DESC LIMI
 
           <?php if (!isset($_SESSION['username'])): ?>
             <li class="nav-item ms-2">
-              <a class="nav-link-2 btn btn-primary btn-nav text-white px-4" href="login.php">Login</a>
+              <a class="nav-link btn btn-primary btn-nav text-white px-4" href="login.php">Login</a>
             </li>
             <li class="nav-item ms-2">
-              <a class="nav-link-2 btn btn-primary btn-nav text-white px-4" href="register.php">Daftar</a>
+              <a class="nav-link btn btn-primary btn-nav text-white px-4" href="register.php">Daftar</a>
             </li>
           <?php else: ?>
             <li class="nav-item dropdown ms-3">
