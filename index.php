@@ -209,7 +209,7 @@ $query_terbaru = mysqli_query($conn, "SELECT * FROM wisata ORDER BY id DESC LIMI
                 <?php if ($_SESSION['level'] == 'admin'): ?>
                   <li><a class="dropdown-item" href="admin_dashboard.php"><i class="fas fa-tachometer-alt me-2"></i> Dashboard Admin</a></li>
                 <?php else: ?>
-                  <li><a class="dropdown-item" href="user_dashboard.php"><i class="fas fa-user me-2"></i> Dashboard User</a></li>
+                  <!-- <li><a class="dropdown-item" href="user_dashboard.php"><i class="fas fa-user me-2"></i> Dashboard User</a></li> -->
                 <?php endif; ?>
                 <li>
                   <hr class="dropdown-divider">
