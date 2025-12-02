@@ -65,11 +65,6 @@ $result = mysqli_query($conn, $query);
       color: #0d6efd !important;
     }
 
-    .nav-link {
-      font-weight: 500;
-      color: #555 !important;
-    }
-
     /* Page Header */
     .page-header {
       background: linear-gradient(135deg, #0d6efd 0%, #0dcaf0 100%);
